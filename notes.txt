@@ -23,4 +23,3 @@ Then push the changes into GitHub
 List all the branches
     -> git branch -a  
 
-y
