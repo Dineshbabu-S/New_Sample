@@ -22,7 +22,13 @@ Then push the changes into GitHub
 
 List all the branches
     -> git branch -a  
-<<<<<<< HEAD
-=======
 
->>>>>>> main1
+To change the branch
+    -> git checkout main            [branch 1]
+    -> git checkout main1           [branch 2]
+
+To see the difference between two branches
+    -> git diff main1            [it shows difference between current branch and main1 branch]
+
+To merge the branches
+    -> git merge main1
