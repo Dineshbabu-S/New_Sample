@@ -1,0 +1,24 @@
+
+If you create a new folder in your desktop then 1st make sure the folder is in .git folder
+    -> git init     [it create a .git folder in the directory]
+
+To all untrackable file at once
+    -> git add .
+
+To add the new_folder as the current origin
+    -> git remote add origin https://github.com/Dineshbabu-S/New_Sample.git
+
+when you opened a new folder it will names as master to see this
+    -> git branch
+
+To change branch name
+    -> git branch -M main
+
+To see the current branch name
+    -> git branch           output - [*main]
+
+Then push the changes into GitHub
+    -> git push origin main
+
+List all the branches
+    -> git branch -a  
